@@ -1,0 +1,61 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<button onclick="demo()">submit</button>
+	<script type="text/javascript">
+		function demo(){
+			alert("danger")
+		}
+	</script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+			<script type="text/javascript">
+				function save(){
+					/*var s=document.getElementById("Event").innerHTML;
+					var user=document.getElementById("user").value;
+					console.log(user)*/
+					var main=document.getElementsByClassName("main")
+					var list=document.getElementsByTagName("li")
+					//console.log(main[].innerHTML)
+					for(var i=0;i<main.length;i++)
+					{
+						console.log(main[i].innerHTML)
+					}
+			
+				}
+		</script>
+</head>
+<body>
+		<input id="user" />
+		<h1 id="Event" class="main">Events in javascript</h1>
+		<p id="text">i love India</p>
+		<p class="main">good morning</p>
+		<h2 class="main">good afternoon</h2>
+		<p class="main">good evening</p>
+		<h4 class="main">good night</h4>
+		<ul>
+			<li>vedham</li>
+			<li>sarvesham</li>
+			<li>shanthi</li>
+			<li>bhoomi</li>
+			<li>ayush</li>
+			<li>suhas</li>
+			<li>sharwa</li>
+		</ul>
+		<button onclick="save()">submit</button>
+
+</body>
+</html>
